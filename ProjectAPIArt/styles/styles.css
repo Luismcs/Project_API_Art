@@ -1,0 +1,81 @@
+body{
+    overflow-x:hidden;
+}
+
+nav{
+    background-color: #6b111a;
+    height: 100px;
+}
+
+.navbar{
+    margin-bottom: 50px;
+}
+
+.searchCol{
+    padding-top: 10px;
+}
+
+/*Art Card*/
+
+.artworkImg{
+    width: 100%; /* Faz com que a imagem ocupe 100% da largura do contêiner */
+    height: 100%; /* Faz com que a imagem ocupe 100% da altura do contêiner */
+    object-fit: cover; /* Redimensiona a imagem mantendo sua proporção e cortando o excesso para caber no contêiner */
+}
+
+.artwork{
+    margin-bottom: 40px;
+    width: 200px; /* Defina o tamanho desejado para as imagens */
+    height: 200px; /* Defina o tamanho desejado para as imagens */
+    overflow: hidden; /* Para ocultar partes das imagens que excedam o tamanho do contêiner */
+    margin: 10px; /* Espaçamento entre os contêineres de imagem */
+    float: left; /* Para alinhar os contêineres lado a lado */
+    border: 1px solid #ccc; /* Adiciona uma borda para visualização */
+}
+.card{
+    padding: 0px;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.card-title {
+    opacity: 0; /* Inicialmente escondido */
+    font-size: 13px;
+    color: white; /* Cor do texto */
+    position: absolute; /* Posição absoluta para sobrepor a imagem */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para destacar o texto */
+    padding: 10px; /* Espaçamento interno */
+    transition: opacity 0.5s; /* Transição suave */
+}
+
+.card:hover .card-title {
+    opacity: 1;                           /*Altera a opacidade*/
+}
+
+.linkShow{
+    width: 100%;
+    height: 100%;
+}
+
+/*Pagination*/
+
+.page-link{
+    color: black;
+}
+
+.page-item.active .page-link {
+    background-color: #6b111a/* Your desired background color */;
+    color: #ffffff;
+    border-color: #6b111a;
+}
+
+
+footer{
+    margin-top: 200px;
+}
+
