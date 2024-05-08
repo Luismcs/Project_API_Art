@@ -25,3 +25,10 @@ On the products page, users can find selected art pieces for purchase. The main 
 - **Pagination System**: Implemented to enhance user experience when dealing with large datasets.
 
 
+<div align="center">
+  <img src="https://github.com/Luismcs/Project_API_Art/blob/main/ProjectAPIArt/images/artworkList.jpg" alt="Arwork_List">
+</div>
+
+<div align="center">
+  <img src="https://github.com/Luismcs/Project_API_Art/blob/main/ProjectAPIArt/images/productList.jpg" alt="Product_List">
+</div>
